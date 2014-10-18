@@ -14,6 +14,6 @@ You can also use an extension on `CGRect` to get the same result
 
 `CGRect(x: 0, y: 0, width: 1.0, height: 1.0).rawRect`
 
-#### Raw HSV Color Spectrum
+#### Raw Noise
 
-![](iPhone 6 Color Spectrum.png)
+![](6+ Noise.png)
