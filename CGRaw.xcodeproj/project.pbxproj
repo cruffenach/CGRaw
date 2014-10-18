@@ -14,6 +14,7 @@
 		0B93AEF019C367EB0030AFD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B93AEEF19C367EB0030AFD0 /* Images.xcassets */; };
 		0B93AEF319C367EB0030AFD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B93AEF119C367EB0030AFD0 /* LaunchScreen.xib */; };
 		0B93AEFF19C367EC0030AFD0 /* CGRawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93AEFE19C367EC0030AFD0 /* CGRawTests.swift */; };
+		0BA804C819F2D96100B301F7 /* CGRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA804C719F2D96100B301F7 /* CGRaw.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0B93AEF819C367EC0030AFD0 /* CGRawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGRawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B93AEFD19C367EC0030AFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B93AEFE19C367EC0030AFD0 /* CGRawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRawTests.swift; sourceTree = "<group>"; };
+		0BA804C719F2D96100B301F7 /* CGRaw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRaw.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		0B93AEE219C367EB0030AFD0 /* CGRaw */ = {
 			isa = PBXGroup;
 			children = (
+				0BA804C719F2D96100B301F7 /* CGRaw.swift */,
 				0B93AEE519C367EB0030AFD0 /* AppDelegate.swift */,
 				0B93AEEA19C367EB0030AFD0 /* ViewController.swift */,
 				0B93AEEC19C367EB0030AFD0 /* Main.storyboard */,
@@ -217,6 +220,7 @@
 			files = (
 				0B93AEEB19C367EB0030AFD0 /* ViewController.swift in Sources */,
 				0B93AEE919C367EB0030AFD0 /* CGRaw.xcdatamodeld in Sources */,
+				0BA804C819F2D96100B301F7 /* CGRaw.swift in Sources */,
 				0B93AEE619C367EB0030AFD0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				0B93AF0419C367EC0030AFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B93AF0519C367EC0030AFD0 /* Build configuration list for PBXNativeTarget "CGRawTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				0B93AF0719C367EC0030AFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
