@@ -1,6 +1,6 @@
 ### CGRaw
 
-This is a small struct and UIKit extension written in Swift to allow for creating `CGRect`s representing raw pixels amounts. The example project draws an HSV color spectrum raw pixels by raw pixel across the bounds of any given device. 
+This is a small struct and UIKit extension written in Swift to allow for creating `CGRect`s representing raw pixels amounts. The example project draws an HSV color spectrum or Random noise raw pixels by raw pixel across the bounds of any given device. 
 
 #### Example
 
